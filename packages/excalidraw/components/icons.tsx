@@ -318,6 +318,17 @@ export const EllipseIcon = createIcon(
   tablerIconProps,
 );
 
+// tabler-icons: pixel
+export const PixelIcon = createIcon(
+  <g strokeWidth="1.5">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+  </g>,
+
+  tablerIconProps,
+);
+
+
 // tabler-icons: arrow-narrow-right
 export const ArrowIcon = createIcon(
   <g strokeWidth="1.5">

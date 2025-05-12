@@ -11,6 +11,7 @@ import {
   TextIcon,
   ImageIcon,
   EraserIcon,
+  PixelIcon,
 } from "./icons";
 
 export const SHAPES = [
@@ -63,9 +64,16 @@ export const SHAPES = [
     numericKey: KEYS["7"],
     fillable: false,
   },
+//  {
+  //  icon: TextIcon,
+  //  value: "text",
+  //  key: KEYS.T,
+  //  numericKey: KEYS["8"],
+  //  fillable: false,
+  //},
   {
-    icon: TextIcon,
-    value: "text",
+    icon: PixelIcon,
+    value: "pixel",
     key: KEYS.T,
     numericKey: KEYS["8"],
     fillable: false,
